@@ -29,7 +29,8 @@ response = sqs.send_message(
         }
     },
     MessageBody=(
-        'Another test 15'
+        'Information about current NY Times fiction bestseller for '
+        'week of 12/11/2016.'
     )
 )
 
